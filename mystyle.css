@@ -1,0 +1,307 @@
+body{
+	margin: 0;
+	
+	font-family:TH-Sarabun ,sans-serif;
+}
+.container{
+	margin:0 30px;
+}
+.menubar{
+	width:100%;
+	height:60px;
+	background:#333333;
+	box-shadow: 0 0 10px #666;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+
+.logo h1{
+	float: left;
+	font-size: 20px;
+	font-weight:normal;
+	padding: 20px;
+
+}
+.menubar ul {
+	list-style: none;
+	float: right;
+	padding: 10px;
+}
+.menubar  li{
+	float: left;
+	margin-right: 20px;
+	/* เรียงลิ้งให้เป็นเเนวนอน */
+}
+.menubar  li a{
+	text-decoration: none;
+	color: #fffdfd;
+	border-bottom:2px solid transparent;
+	padding-bottom: 20px;
+	transition: color 0.3s ease;
+}
+
+.menubar  li a:hover{
+	background-color: #00FFFF;
+    padding-bottom: 10px;
+    padding-top: 10px;
+	/* เมื่อชี้linkจะมีกล่องสีฟ้าขึ้นมา */
+}
+.header{
+	width: 100%;
+	height: 550px;
+	background-color:#000000;
+	
+	/*ขนาดของพื้นหลังอันเเรก*/
+}
+
+.header_area{
+	padding-top: 170px;
+
+	/*ไซส์กล่องตัวอักษรอันเเรก*/
+}
+
+.header_area h1{
+	font-size: 50px;
+	margin: 0;
+	font-weight: normal;
+	color: #00FFFF;
+	/* สีของตัวอักษรกล่องเเรก */
+}
+
+ .header_area p{
+	text-align: center;
+	font-size: 20px;
+	width: 48opx;
+	color: #FFFFFF;
+}
+.shadow{
+	text-shadow: -5px 0 #66FFFF, 0 5px #66FFFF,5px 0 #66FFFF, 0 -5px #66FFFF,0 0 0.2em #00FFCC;
+}
+h1{
+	margin: 0;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	font-family: Franklin Gothic Heavy;
+	
+}
+.info1{
+	width: 100%;
+	height: 655px;
+	background-color:#222222;
+}
+
+.info1_text{
+	color: white;
+	padding-top: 5em;
+	font-size: 23px;
+}
+
+.info1_text p{
+	text-indent: 2.5em;
+}
+
+ .name{
+	margin-left: 60%;
+}
+
+.organizer{
+	margin-left: 70%;
+	
+}
+
+.info2{
+	width: 100%;
+	height: 655px;
+	background-color:#000000;
+	padding-top: 5em;
+}
+
+.info2_text{
+	float: left;
+	color: white;
+	margin-left: 200px;
+	display: grid;
+    grid-template-columns: auto auto;
+	grid-column-gap: 50px;
+}
+
+.info2_text img{
+	margin-top: -80px;
+	width:300px ;
+	height:600px;
+	
+}
+
+.info2_text p{
+	font-size: 20px;
+}
+
+.info3{
+	width: 100%;
+	height: 655px;
+	background-color:#222222;
+}
+
+.info3 h1{
+	padding-top: 80px;
+}
+.info3_family {
+	display: grid;
+    grid-template-columns: 500px auto;
+	padding-left: 10%;
+	
+}
+.info3_area1 .info3_text {
+	background-color: rgb(66, 68, 71);
+	border-radius: 10px;
+	width: 25em;
+	height: 27.5em;
+	margin-top: 30px;
+	transition: all 0.3s ease;   /* กล่องข้อความลอยเเบบสมูทขึ้น */
+}
+
+ .info3_text:hover{
+	background-color: #6ff5e7;
+	
+}
+.info3_text:hover p{
+	color: black;
+}
+.info3_text:hover{
+	margin-left: 20px;
+	transform: scale(1.05);  /* กล่องข้อความลอยนูน */
+}
+.info3_text h2{
+	text-align: center;
+	color: white;
+}
+
+.info3_text:hover h2{
+	color: black;
+}
+
+.info3_text img{
+	border-radius:10em;
+    height:8em;
+    width: 8em;
+	margin-left: 8em;
+}
+
+.info3_text p{
+	color:#FFFFFF;
+	padding-left: 46px;
+ }
+
+ .info4{
+	width: 100%;
+	height: 600px;
+	background-color:#000000;
+	padding-top: 5em;
+ }
+ .info4_text{
+	color: white;
+}
+.Kobkarnsuksa_SCHOOL img{
+	margin-left: 35px;
+}
+.Kobkarnsuksa1 {
+	border-radius : 90px;
+	width: 600px;
+	height: 100px;
+	background-color: #40e0d0;
+	margin-left: 250px;
+	margin-top: -150px;
+   
+}
+.Kobkarnsuksa1 p{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.KITTIVIT_SCHOOL{
+	float: right;
+	
+}
+.KITTIVIT_SCHOOL1 {
+	border-radius : 90px;
+	width: 600px;
+	height: 100px;
+	background-color: #40e0d0;
+	margin-top: 50px;
+	margin-left: 400px;
+   }
+.KITTIVIT_SCHOOL1 p{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 20px;
+}
+.patong1 {
+	border-radius : 90px;
+	width: 600px;
+	height: 100px;
+	background-color: #40e0d0;
+	margin-left: 250px;
+	margin-top: -150px;
+}
+.patong1 p{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 20px;
+}
+.info5{
+	width: 100%;
+	height: 100em;
+	background-color:#222222;
+	
+	
+}
+
+.info5_text{
+	color: white;
+	padding-top: 5em;
+}
+
+.info5_text p{
+	font-size: 23px;
+}
+
+.box .box001 {
+	border: 2px  ;
+	width: 400px;
+	height: 300px;
+	margin-top: 100px;
+	margin-left: 6%;
+	padding: 30px;
+	text-align: center;
+	background: linear-gradient(#99FFFF,#DCDCDC);
+	box-shadow: 10px 10px 5px #444444;
+	float: left;
+  
+  }
+  
+  .box p {
+	color:black;
+	font-size: 20px;
+  }
+  
+  .box img{
+	width: 400px;
+	height: 200px;
+  }
+  .info6{
+	width: 100%;
+	height: 70em;
+	background-color:#000000;
+}
+
+.info6_text{
+	color: white;
+	padding-top: 5em;
+}
+
+.info6_text p{
+	font-size: 23px;
+}
